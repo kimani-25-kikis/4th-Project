@@ -1,0 +1,57 @@
+.mainContainer{
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.inputForm{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 65%;
+    height: 420px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    justify-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+.inputField{
+    margin-bottom: 5%;
+}
+.inputField input{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(217, 217, 217);
+}
+.inputField select{
+    width: 260px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(217, 217, 217);
+}
+.formContainer{
+    display: flex;
+}
+.environmental{
+    margin-right: 20%;
+}
+.inputForm button{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(9, 245, 17);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    justify-self: center;
+    margin-top: 1%;
+    margin-left: 30%;
+}
+.graph img{
+    margin: 15% 15%;
+    border-radius: 5px;
+}

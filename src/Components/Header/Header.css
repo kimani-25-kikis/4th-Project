@@ -1,0 +1,54 @@
+header {
+    background-color: rgb(24, 178, 29); /* Green background */
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem; /* Adjust spacing between nav items */
+  }
+  
+  nav ul li {
+    font-size: 20px; /* Slightly reduce font size for balance */
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #d1d5db; /* Light gray on hover */
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .space-x-4 {
+    gap: 1rem;
+  }
+  
+  .space-x-8 {
+    gap: 2rem;
+  }
+  

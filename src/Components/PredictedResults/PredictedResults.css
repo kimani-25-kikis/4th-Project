@@ -1,0 +1,28 @@
+.containerCard{
+    padding: 2%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    justify-self: center;
+    justify-items: center;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+.containerCard h2{
+    color: rgb(9, 243, 17);
+}
+.containerCard h3{
+    font-weight: 400;
+}
+.containerCard img{
+    border-radius: 10px;
+}
+.divider{
+    background-color: red;
+    margin-top: 4%;
+}
+.containerCard ol li{
+    color: rgb(9, 243, 17);
+}
