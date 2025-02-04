@@ -1,0 +1,33 @@
+.insights-container{
+    margin-top: 6%;
+    padding: 2%;
+}
+.maizeImages{
+    display: flex;
+    padding: 1%;
+    justify-self: center;
+}
+.image img{
+    margin: 10px;
+    border-radius: 15px;
+}
+h1, h2{
+    color: rgb(24, 178, 29);
+}
+p{
+    font-size: 20px;
+    font-weight: 350;
+}
+.graphs-container{
+    display: flex;
+    padding: 1%;
+    
+}
+.graphs{
+    height: auto;
+    width: 95%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    justify-self: center;
+    justify-items: center;
+}
