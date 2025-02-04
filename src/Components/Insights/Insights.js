@@ -32,7 +32,7 @@ const Insights = () => {
         <>
             <Header />
             <div className="insights-container">
-                <h1>Maize</h1>
+                <h1 className="headings">Maize</h1>
 
                 <div className="maizeImages">
                     <div className="image">
@@ -56,7 +56,7 @@ const Insights = () => {
                 </div>
 
                 <div>
-                <h1>Maize Crop Insights</h1>
+                <h1 className="headings">Maize Crop Insights</h1>
                 <p>Maize, Zea mays L. (corn), is the most abundantly produced cereal in the world. It is grown in every continent except Antarctica. About 50 species exist and consist of different colors, textures, and grain shapes and sizes. White, yellow, and red are the most common cultivated maize types. The white and yellow varieties are preferred by most people depending on the region. Maize, which was domesticated in central Mexico around 1500 BC, was introduced into Africa around 1500 AD, and spread to every corner of the continent within a relatively short period and is now Africa’s most important cereal crop.</p>
                 <h3>Maize Production</h3>
                 <p>Maize production in Africa was around 75 million tons in 2018, representing 7.5% of world maize production. Maize occupies approximately 24% of farmland in Africa and the average yield stagnates at around 2 tons/hectare/year. The largest African producer is Nigeria with over 33 million tons, followed by South Africa, Egypt, and Ethiopia. Africa imports 28% of its required maize grain from countries outside the continent as most of the maize production in Africa is done under rain-fed conditions. Irregular rainfall can trigger shortages and famines during occasional droughts.</p>
@@ -66,7 +66,7 @@ const Insights = () => {
                     <div className="graphs-container">
                     <div>
                         {/* Bar Chart - Environmental Factors vs. Production */}
-                <h2>Effect of Environmental Factors on Production</h2>
+                <h2 className="headings">Effect of Environmental Factors on Production</h2>
                 <BarChart
                     xAxis={[{ scaleType: "band", data: years, label: "Years" }]}
                     series={[
@@ -80,7 +80,7 @@ const Insights = () => {
                     </div>
                     <div>
                         {/* Line Chart - Production Trends Over Years */}
-                <h2>Maize Production Trends Over the Years</h2>
+                <h2 className="headings">Maize Production Trends Over the Years</h2>
                 <LineChart
                     xAxis={[{ scaleType: "band", data: years, label: "Years" }]}
                     series={[{ data: productionData, label: "Production (tons/ha)" }]}
@@ -92,7 +92,7 @@ const Insights = () => {
                     </div>
 
                     {/* Pie Chart - Fertilizer Usage */}
-                <h2>Fertilizer Type Distribution</h2>
+                <h2 className="headings">Fertilizer Type Distribution</h2>
                 <PieChart
                     series={[{
                         data: fertilizerData,
@@ -113,7 +113,7 @@ const Insights = () => {
 
                 {/* Recommendations */}
                 <div className="recommendations">
-                    <h2>Key Recommendations</h2>
+                    <h2 className="headings">Key Recommendations</h2>
                     <ul>
                         <li>Maintain soil pH between 5.8 - 6.5 for optimal maize growth.</li>
                         <li>Use balanced fertilizers like NPK (20-20-20) for better yield.</li>

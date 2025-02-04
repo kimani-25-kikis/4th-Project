@@ -11,9 +11,7 @@
     margin: 10px;
     border-radius: 15px;
 }
-h1, h2{
-    color: rgb(24, 178, 29);
-}
+
 p{
     font-size: 20px;
     font-weight: 350;
@@ -30,4 +28,7 @@ p{
     border-radius: 10px;
     justify-self: center;
     justify-items: center;
+}
+.headings{
+    color: rgb(24, 178, 29);
 }
